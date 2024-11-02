@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="robots" content="index, follow"> -->
+    <meta name="description" content="Центр грузоподъемных технологий Профтехэксперт">
+    <meta name="keywords" content="Грузоподъемные технологии">
+    <meta property="og:title" content="Центр грузоподъемных технологий - Профтехэксперт" />
+    <meta property="og:description" content="Центр грузоподъемных технологий Профтехэксперт" />
+    <!-- <meta property="og:site_name" content="Профтехэксперт" /> -->
+    <!-- <meta property="og:image" content="assets/img/yarus__logo.png" /> -->
+    <title>Центр грузоподъемных технологий "Профтехэксперт"</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery-fancybox-min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/media.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/svg+xml" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/svg+xml" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <a class="header__phone" href="tel:+74862740433">8(4862)74-04-33</a>
+                <div class="header__adress">
+                    <svg class="header__adress-icon">
+                        <use xlink:href="sprite-icon.svg#pointer"></use>
+                    </svg>
+                    <a class="header__adress-link"
+                        href="https://yandex.ru/maps/?whatshere[point]=36.031399,52.941336&whatshere[zoom]=17" 36.031399
+                        target="_blank">г. Орёл, ул. Спивака, д. 76</a>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <a class="logo__link" href="index.html">
+                    <svg class="header__logo-icon">
+                        <use xlink:href="sprite-icon.svg#logo_header"></use>
+                    </svg>
+                </a>
+                <nav class="nav__menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><!--active-->
+                            <a class="menu__link" href="about_us.html">О компании</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="services.html">Услуги</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="catalog.html">Каталог</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="blog.html">Материалы</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="burger__menu">
+                    <div class="burger__menu-icon"><!--open-->
+                        <span></span>
+                    </div>
+                    <div class="burger__menu-body"><!--open-->
+                        <nav class="burger__menu-nav">
+                            <ul class="burger__menu-list">
+                                <li class="burger__menu-item"><!--active-->
+                                    <a class="burger__menu-link" href="about_us.html">О компании</a>
+                                </li>
+                                <li class="burger__menu-item">
+                                    <a class="burger__menu-link" href="services.html">Услуги</a>
+                                </li>
+                                <li class="burger__menu-item">
+                                    <a class="burger__menu-link" href="catalog.html">Каталог</a>
+                                </li>
+                                <li class="burger__menu-item">
+                                    <a class="burger__menu-link" href="blog.html">Материалы</a>
+                                </li>
+                                <li class="burger__menu-item">
+                                    <a class="burger__menu-link" href="contacts.html">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="burger__menu-contact">
+                            <a class="burger__menu-phone" href="tel:+74862740433">8(4862)74-04-33</a>
+                            <div class="burger__menu-adress">
+                                <svg class="burger__menu-adress-icon">
+                                    <use xlink:href="sprite-icon.svg#pointer"></use>
+                                </svg>
+                                <a class="burger__menu-adress-link"
+                                    href="https://yandex.ru/maps/?whatshere[point]=36.031399,52.941336&whatshere[zoom]=17"
+                                    36.031399 target="_blank">г. Орёл, ул. Спивака, д. 76</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="search-menu" class="search_box">
+                    <input class="search_txt" type="search" name="" placeholder="Поиск">
+                    <a class="search_btn" href="#"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="swiper slider__home">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide slider__home-slide">
+                    <picture class="slider__bg">
+                        <source loading="lazy" srcset="assets/img/content/hero-slider_1.webp" type="image/webp">
+                        <img loading="lazy" src="assets/img/content/hero-slider_1.jpg" alt="hero-slider_1">
+                    </picture>
+                    <div class="slider__home-content">
+                        <div class="container">
+                            <div class="slider__home-inner">
+                                <h1 class="title hero__title">Центр грузоподъемных технологий</h1>
+                                <div class="slider__home-info">
+                                    <p class="slider__home-text">Разработка, производство и поставка самого современного
+                                        грузоподъёмного оборудования</p>
+                                    <a class="button button__slider" href="#feedback_1">Заказать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slider__home-slide">
+                    <picture class="slider__bg">
+                        <source loading="lazy" srcset="assets/img/content/hero-slider_2.webp" type="image/webp">
+                        <img loading="lazy" src="assets/img/content/hero-slider_2.jpg" alt="hero-slider_2">
+                    </picture>
+                    <div class="slider__home-content">
+                        <div class="container">
+                            <div class="slider__home-inner">
+                                <h2 class="title hero__title">Вакуумные захваты</h2>
+                                <div class="slider__home-info">
+                                    <p class="slider__home-text">Стандартные вакуумные захваты предлагают эффективные
+                                        решение для погрузочно-разгрузочных работ, обеспечивая функциональность,
+                                        безопасность, эргономичность.</p>
+                                    <a class="button" href="vacuum.html">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slider__home-slide">
+                    <picture class="slider__bg">
+                        <source loading="lazy" srcset="assets/img/content/hero-slider_3.webp" type="image/webp">
+                        <img loading="lazy" src="assets/img/content/hero-slider_3.jpg" alt="hero-slider_3">
+                    </picture>
+                    <div class="slider__home-content">
+                        <div class="container">
+                            <div class="slider__home-inner">
+                                <h2 class="title hero__title">Магнитные захваты</h2>
+                                <div class="slider__home-info">
+                                    <p class="slider__home-text">Грузоподъемное оборудование, предназначенное для
+                                        подъема и перемещения ферромагнитного груза с надежной его фиксацией.</p>
+                                    <a class="button" href="magnetic.html">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slider__home-slide">
+                    <picture class="slider__bg">
+                        <source loading="lazy" srcset="assets/img/content/hero-slider_4.webp" type="image/webp">
+                        <img loading="lazy" src="assets/img/content/hero-slider_4.jpg" alt="hero-slider_4">
+                    </picture>
+                    <div class="slider__home-content">
+                        <div class="container">
+                            <div class="slider__home-inner">
+                                <h2 class="title hero__title">Клещи металлургические</h2>
+                                <div class="slider__home-info">
+                                    <p class="slider__home-text">Легко внедряются в производственный процесс
+                                        металлургических комбинатов и заметно повышают их производительность, в связи
+                                        с ускорением перемещения грузов по цеху.</p>
+                                    <a class="button" href="ticks.html">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <section class="category">
+            <div class="container">
+                <div class="category__inner category__tree">
+                    <a class="category__link" href="vacuum.html">
+                        <div class="category__link-img category__img-tree">
+                            <picture class="category__img">
+                                <source loading="lazy" srcset="assets/img/content/category_1.webp" type="image/webp">
+                                <img loading="lazy" src="assets/img/content/category_1.jpg" alt="category_1">
+                            </picture>
+                        </div>
+                        <div>
+                            <p class="category__name">Вакуумные захваты</p>
+                        </div>
+                    </a>
+                    <a class="category__link" href="ticks.html">
+                        <div class="category__link-img category__img-tree">
+                            <picture class="category__img">
+                                <source loading="lazy" srcset="assets/img/content/category_2.webp" type="image/webp">
+                                <img loading="lazy" src="assets/img/content/category_2.jpg" alt="category_2">
+                            </picture>
+                        </div>
+                        <div>
+                            <p class="category__name">Клещи металлургические</p>
+                        </div>
+                    </a>
+                    <a class="category__link" href="magnetic.html">
+                        <div class="category__link-img category__img-tree">
+                            <picture class="category__img">
+                                <source loading="lazy" srcset="assets/img/content/category_3.webp" type="image/webp">
+                                <img loading="lazy" src="assets/img/content/category_3.jpg" alt="category_3">
+                            </picture>
+                        </div>
+                        <div>
+                            <p class="category__name">Магнитные захваты</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section__info">
+            <div class="container">
+                <div class="section__info-content">
+                    <p class="title section__info-title">ПРОФЕССИОНАЛЬНОЕ ГРУЗОПОДЪЁМНОЕ ОБОРУДОВАНИЕ — <span>ЗАЛОГ
+                            ВАШЕГО УСПЕХА</span></p>
+                    <div class="section__info-box">
+                        <p class="section__info-subtitle">Высокие стандарты качества</p>
+                        <p class="section__info-text">Работаем с металлургическими, нефтегазовыми, горнодобывающими,
+                            строительными и предприятиями других отраслей.</p>
+                    </div>
+                    <div class="section__info-box">
+                        <p class="section__info-subtitle">Доставка</p>
+                        <p class="section__info-text">Широкая география поставок. Работаем с ведущими транспортными
+                            компаниями.</p>
+                    </div>
+                    <div class="section__info-box">
+                        <p class="section__info-text">Учитывая потребности и особенности Российского производства, мы
+                            разработали различные модели современного и надёжного грузоподъёмного оборудования. Широкий
+                            ценовой диапазон и большие функциональные возможности позволяют нам предложить то, что
+                            оптимально подойдёт для выполнения ваших задач. У нас есть линейка готовых решений для
+                            производства, а также возможность изготовления нестандартного запроса.</p>
+                        <div>
+                            <a class="page__link" href="catalog.html">Перейти в каталог</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section__services">
+            <div class="container">
+                <p class="title section__services-title">Услуги</p>
+                <div class="category__inner category__twoo">
+                    <a class="category__link" href="service.html">
+                        <div class="category__link-img category__img-twoo">
+                            <picture class="category__img">
+                                <source loading="lazy" srcset="assets/img/content/service_1.webp" type="image/webp">
+                                <img loading="lazy" src="assets/img/content/service_1.jpg" alt="service_1">
+                            </picture>
+                        </div>
+                        <div>
+                            <p class="category__name">Обслуживание гидравлических и тельферных подъемников</p>
+                        </div>
+                    </a>
+                    <a class="category__link" href="service.html">
+                        <div class="category__link-img category__img-twoo">
+                            <picture class="category__img">
+                                <source loading="lazy" srcset="assets/img/content/service_2.webp" type="image/webp">
+                                <img loading="lazy" src="assets/img/content/service_2.jpg" alt="service_2">
+                            </picture>
+                        </div>
+                        <div>
+                            <p class="category__name">Пусконаладочные работы и обучение при работе
+                                с вакуумными подъемниками</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section__feedback">
+            <div class="container">
+                <p class="feedback__title">Демонстрация вакуумных захватов на вашем предприятии</p>
+                <p class="feedback__subtitle">Оставьте свои контактные данные и наш менеджер свяжется с вами в ближайшее
+                    время</p>
+                <form class="section__feedback-form" action="https://jsonplaceholder.typicode.com/posts" autocomplete=""
+                    method="post">
+                    <div class="input">
+                        <input class="input-ru" name="name" type="text" required placeholder="Иван Иванович">
+                        <span class="placeholder">Имя</span>
+                    </div>
+                    <div class="input">
+                        <input class="input__phone input-number" name="tel" type="tel" required
+                            placeholder="+7 (999)999-99-99">
+                        <span class="placeholder">Телефон</span>
+                    </div>
+                    <input class="button" type="submit" value="Заказать">
+                    <div class="policy">
+                        <input class="policy_checkbox" name="policy" type="checkbox" checked>
+                        <p class="policy_text">Нажимая на кнопку, вы солашаетесь<br>
+                            с <a class="policy__link" href="policy.html">политикой обработки персональных данных</a></p>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+        <section class="section section__gallery">
+            <div class="container">
+                <p class="title section__gallery-title">Фотогалерея</p>
+
+                <!-- Slider main container -->
+                <div class="swiper slider__gallery">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide slider__gallery-slide">
+                            <a class="slider__gallery-more" data-caption="Вакуумный захват" data-fancybox="home-gallery"
+                                href="assets/img/content/gallery-slider_1.jpg">
+                                <picture>
+                                    <source loading="lazy" srcset="assets/img/content/gallery-slider_1.webp"
+                                        type="image/webp">
+                                    <img loading="lazy" src="assets/img/content/gallery-slider_1.jpg"
+                                        alt="gallery-slider_1">
+                                </picture>
+                            </a>
+                            <a class="slider__gallery-link" href="gallery.html">
+                                <svg class="slider__gallery-link-icon">
+                                    <use xlink:href="sprite-icon.svg#gallery__link"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slider__gallery-slide">
+                            <a class="slider__gallery-more" data-caption="Вакуумный захват 2"
+                                data-fancybox="home-gallery" href="assets/img/content/gallery-slider_2.jpg">
+                                <picture>
+                                    <source loading="lazy" srcset="assets/img/content/gallery-slider_2.webp"
+                                        type="image/webp">
+                                    <img loading="lazy" src="assets/img/content/gallery-slider_2.jpg"
+                                        alt="gallery-slider_2">
+                                </picture>
+                            </a>
+                            <a class="slider__gallery-link" href="gallery.html">
+                                <svg class="slider__gallery-link-icon">
+                                    <use xlink:href="sprite-icon.svg#gallery__link"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slider__gallery-slide">
+                            <a class="slider__gallery-more" data-caption="Магнитный захват" data-fancybox="home-gallery"
+                                href="assets/img/content/gallery-slider_3.jpg">
+                                <picture>
+                                    <source loading="lazy" srcset="assets/img/content/gallery-slider_3.webp"
+                                        type="image/webp">
+                                    <img loading="lazy" src="assets/img/content/gallery-slider_3.jpg"
+                                        alt="gallery-slider_3">
+                                </picture>
+                            </a>
+                            <a class="slider__gallery-link" href="gallery.html">
+                                <svg class="slider__gallery-link-icon">
+                                    <use xlink:href="sprite-icon.svg#gallery__link"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slider__gallery-slide">
+                            <a class="slider__gallery-more" data-caption="Транспортировка клещей"
+                                data-fancybox="home-gallery" href="assets/img/content/gallery-slider_4.jpg">
+                                <picture>
+                                    <source loading="lazy" srcset="assets/img/content/gallery-slider_4.webp"
+                                        type="image/webp">
+                                    <img loading="lazy" src="assets/img/content/gallery-slider_4.jpg"
+                                        alt="gallery-slider_4">
+                                </picture>
+                            </a>
+                            <a class="slider__gallery-link" href="gallery.html">
+                                <svg class="slider__gallery-link-icon">
+                                    <use xlink:href="sprite-icon.svg#gallery__link"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slider__gallery-slide">
+                            <a class="slider__gallery-more" data-caption="Клещи" data-fancybox="home-gallery"
+                                href="assets/img/content/gallery-slider_5.jpg">
+                                <picture>
+                                    <source loading="lazy" srcset="assets/img/content/gallery-slider_5.webp"
+                                        type="image/webp">
+                                    <img loading="lazy" src="assets/img/content/gallery-slider_5.jpg"
+                                        alt="gallery-slider_5">
+                                </picture>
+                            </a>
+                            <a class="slider__gallery-link" href="gallery.html">
+                                <svg class="slider__gallery-link-icon">
+                                    <use xlink:href="sprite-icon.svg#gallery__link"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section__blog">
+            <div class="container">
+                <p class="title section__blog-title">Материалы</p>
+                <!-- Slider main container -->
+                <div class="swiper slider__blog">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide slider__blog-slide">
+                            <a class="slider__blog-link" href="article.html">
+                                <div class="slider__blog-inner">
+                                    <picture>
+                                        <source loading="lazy" srcset="assets/img/content/blog_1.webp"
+                                            type="image/webp">
+                                        <img loading="lazy" src="assets/img/content/blog_1.jpg" alt="blog-slider_1">
+                                    </picture>
+                                </div>
+                                <p class="slider__blog-title">Определение допустимого свеса груза</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slider__blog-slide">
+                            <a class="slider__blog-link" href="article.html">
+                                <div class="slider__blog-inner">
+                                    <picture>
+                                        <source loading="lazy" srcset="assets/img/content/blog_2.webp"
+                                            type="image/webp">
+                                        <img loading="lazy" src="assets/img/content/blog_2.jpg" alt="blog-slider_2">
+                                    </picture>
+                                </div>
+                                <p class="slider__blog-title">Вакуумные захваты для листового металла</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slider__blog-slide">
+                            <a class="slider__blog-link" href="article.html">
+                                <div class="slider__blog-inner">
+                                    <picture>
+                                        <source loading="lazy" srcset="assets/img/content/blog_3.webp"
+                                            type="image/webp">
+                                        <img loading="lazy" src="assets/img/content/blog_3.jpg" alt="blog-slider_3">
+                                    </picture>
+                                </div>
+                                <p class="slider__blog-title">Физические и структурные параметры вакуумной присоски</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slider__blog-slide">
+                            <a class="slider__blog-link" href="article.html">
+                                <div class="slider__blog-inner">
+                                    <picture>
+                                        <source loading="lazy" srcset="assets/img/content/blog_4.webp"
+                                            type="image/webp">
+                                        <img loading="lazy" src="assets/img/content/blog_4.jpg" alt="blog-slider_4">
+                                    </picture>
+                                </div>
+                                <p class="slider__blog-title">Комбинированные траверсы</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slider__blog-slide">
+                            <a class="slider__blog-link" href="article.html">
+                                <div class="slider__blog-inner">
+                                    <picture>
+                                        <source loading="lazy" srcset="assets/img/content/blog_5.webp"
+                                            type="image/webp">
+                                        <img loading="lazy" src="assets/img/content/blog_5.jpg" alt="blog-slider_5">
+                                    </picture>
+                                </div>
+                                <p class="slider__blog-title">Механические захваты</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="feedback_1" class="section section__contacts">
+            <div class="container">
+                <div class="contacts__inner">
+                    <div class="map__inner">
+                        <div id="map" class="map"></div>
+                    </div>
+                    <div class="contacts__block">
+                        <p class="section__contacts-title">Контакты</p>
+                        <div class="section__contacts-links">
+                            <div class="contacts__block-link-item">
+                                <a class="contacts__block-link" href="tel:+74862740433">8 (4862) 74-04-33</a>
+                            </div>
+                            <div class="contacts__block-link-item">
+                                <a class="contacts__block-link" href="mailto:info@prof-pt.ru">info@prof-pt.ru</a>
+                            </div>
+                            <div class="contacts__block-link-item">
+                                <a class="contacts__block-link"
+                                    href="https://yandex.ru/maps/?rtext=~52.941336%2C36.031399" target="_blank">302005
+                                    г.Орёл, ул.Спивака, вл.76</a>
+                            </div>
+                        </div>
+                        <form class="section__contacts-form" action="https://jsonplaceholder.typicode.com/posts"
+                            autocomplete="" method="post">
+                            <p class="contacts__form-title">Получите бесплатную консультацию</p>
+                            <p class="contacts__form-subtitle">Оставьте свои контактные данные и наш менеджер свяжется с
+                                вами в ближайшее время</p>
+                            <div class="input">
+                                <input class="input-ru" name="name" type="text" required placeholder="Иван Иванович">
+                                <span class="placeholder">Имя</span>
+                            </div>
+                            <div class="input">
+                                <input class="input__phone input-number" name="tel" type="tel" required
+                                    placeholder="+7 (999)999-99-99">
+                                <span class="placeholder">Телефон</span>
+                            </div>
+                            <input class="button contact__btn" type="button" value="Заказать">
+                            <div class="policy">
+                                <input class="policy_checkbox" name="policy" type="checkbox" checked>
+                                <p class="policy_text">Нажимая на кнопку, вы солашаетесь<br>
+                                    с <a class="policy__link" href="policy.html">политикой обработки персональных
+                                        данных</a></p>
+                            </div>
+
+                            <div class="contacts__form-poppup"><!--poppup__open-->
+                                <div class="contacts__form-poppup-body">
+                                    <p class="contacts__form-poppup-subtitle">Если вас интересуют вакуумные захваты -
+                                        можете заполнить форму, чтобы мы смогли оперативнее ответить на ваши вопросы.
+                                    </p>
+                                    <div class="contacts__form-poppup-btns">
+                                        <input class="button poppup__btn" type="submit" value="Отправить">
+                                        <a class="button poppup__btn" href="quiz.html">Заполнить</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <div id="massage__success" class="post__success"><!--massage__open-->
+            <div class="massage__body">
+                <h3 class="massage__title">Спасибо!</h3>
+                <p class="massage__text">Ваша заявка отпровлена</p>
+                <button id="massage__btn" class="button poppup__btn massage__btn" type="button">Ок</button>
+            </div>
+        </div>
+
+        <div id="massage__success-error" class="post__success massage__success-error"><!--massage__open-->
+            <div class="massage__body">
+                <h3 class="massage__title">УПС!</h3>
+                <p class="massage__text">Что-то пошло не так, попробуйте отправить заявку еще раз</p>
+                <button id="massage__btn" class="button poppup__btn massage__btn" type="button">Ок</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer"><!--dark__footer-->
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__inner-logo">
+                    <a id="footer__logo" class="footer__logo" href="#">
+                        <svg class="footer__logo-icon">
+                            <use xlink:href="sprite-icon.svg#footer__logo"></use>
+                        </svg>
+                        <svg class="footer__logo-icon dark">
+                            <use xlink:href="sprite-icon.svg#footer__logo-dark"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer__inner-menu">
+                    <nav class="footer__menu">
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item">
+                                <a class="footer__menu-link" href="about_us.html">О компании</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a class="footer__menu-link" href="catalog.html">Каталог</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a class="footer__menu-link" href="contacts.html">Контакты</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a class="footer__menu-link" href="services.html">Услуги</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a class="footer__menu-link" href="blog.html">Материалы</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a class="footer__menu-link" href="quiz.html">Опросный лист</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a class="footer__menu-link" href="sitemap.html">Карта сайта</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="requisites__blog">
+                    <div class="requisites__bank">
+                        <p class="requisites__text">ИНН <span>5752072378</span></p>
+                        <p class="requisites__text">КПП <span>575201001</span></p>
+                        <p class="requisites__text">ОГРН <span>1155749008645</span></p>
+                    </div>
+                    <div class="requisites__adress">
+                        <p class="requisites__text"><span>ПАО АКБ «АВАНГАРД» 115035, г.Москва, Садовническая
+                                ул., д.12, стр.1</span></p>
+                    </div>
+                    <div class="requisites__account">
+                        <p class="requisites__text">Расчетный счет <span>40702810809100003358</span></p>
+                        <p class="requisites__text">Корреспондентский счет <span>30101810000000000201</span></p>
+                        <p class="requisites__text">БИК <span>044525201</span></p>
+                    </div>
+                </div>
+
+                <p class="footer__copyright">2023 &copy; Все права защищены</p>
+                <div class="requisites__link">
+                    <a href="assets/files/requisites.pdf" download="">Скачать реквизиты</a>
+                </div>
+            </div>
+
+            <!-- SCROLL TO TOP -->
+            <a class="back-to-top" href="#"></a>
+
+            <!-- COOKIE_PUSH -->
+            <div class="cookie_notice">
+                Этот сайт использует файлы cookies и сервисы сбора технических данных посетителей (данные об IP-адресе,
+                местоположении и др.) для обеспечения работоспособности и улучшения качества обслуживания. <br>Продолжая
+                использовать наш сайт, вы автоматически соглашаетесь с использованием данных технологий.
+                <div>
+                    <a class="cookie_btn" id="cookie_close" href="#">Согласиться</a>
+                    <a class="cookie_btn" href="policy.html">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery.cookie.js"></script>
+    <script src="assets/js/jquery.maskedinput.min.js"></script>
+    <script
+        src="https://api-maps.yandex.ru/2.0-stable/?apikey=084795ed-45d9-4393-bae9-5577b3d8e13e&load=package.standard&lang=ru-RU"
+        type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
+        integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/jquery_fancybox_min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script_page/home_page.js"></script>
+</body>
+
+</html>
