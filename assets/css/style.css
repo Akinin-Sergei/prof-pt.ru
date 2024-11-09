@@ -1297,7 +1297,10 @@ footer.dark__footer .footer__logo-icon.dark{
     width: 1px;
     height: 1px;
     pointer-events: none;
-    -webkit-pointer-events: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
 }
 
 .policy_text {
