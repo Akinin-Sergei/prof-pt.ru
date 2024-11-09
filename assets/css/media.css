@@ -1092,7 +1092,7 @@
 
     .footer__inner {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: minmax(35px, 60px) minmax(65px, 70px) minmax(100px, 100px) minmax(15px, 20px);
+        grid-template-rows: minmax(35px, 60px) minmax(65px, 110px) minmax(100px, 100px) minmax(15px, 20px);
         gap: 24px;
     }
 
@@ -1108,7 +1108,7 @@
 
     .footer__menu-list {
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
 
     .requisites__blog{
