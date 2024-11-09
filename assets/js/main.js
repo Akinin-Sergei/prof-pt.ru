@@ -44,7 +44,6 @@ $(window).scroll(function () {
 
 // ===BURGER_MENU===
 $('.burger__menu').on('click', function (e) {
-    e.preventDefault();
     $('.burger__menu-icon').toggleClass('open');
     $('.burger__menu-body').toggleClass('open');
     $('body').toggleClass('lock');
@@ -126,7 +125,3 @@ $(function scrollToTop() {
     });
 
 });
-
-
-
-
