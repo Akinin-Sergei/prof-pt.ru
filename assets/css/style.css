@@ -1297,6 +1297,7 @@ footer.dark__footer .footer__logo-icon.dark{
     width: 1px;
     height: 1px;
     pointer-events: none;
+    -webkit-pointer-events: none;
 }
 
 .policy_text {
@@ -1438,6 +1439,7 @@ footer.dark__footer .footer__logo-icon.dark{
 .slider__blog-inner{
     max-width: 690px;
     max-height: 307px;
+    height: 307px;
     border-radius: 5px;
     overflow: hidden;
 }
@@ -2023,6 +2025,7 @@ input.poppup__btn.poppup__btn:hover,
     text-decoration: underline;
     cursor: pointer;
     transition: all .7s ease;
+    color: var(--black);
 }
 
 .filter__remove:hover{
@@ -2448,6 +2451,29 @@ table tr th {
 .gallery-work-img:hover::after,
 .gallery-work-img:hover::before{
     opacity: 1;
+}
+
+.form__feedback-poppup .contacts__form-poppup-body{
+    max-width: 700px;
+    max-height: 620px;
+}
+
+.form__feedback{
+    margin-top: 50px;
+}
+
+.form__feedback .input+.input{
+    margin: 24px 0;
+}
+
+.form__feedback-poppup .feedback__title{
+    padding-top: 0px;
+}
+
+.form__feedback-poppup .policy_text {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -2960,6 +2986,7 @@ table tr th {
 
 .block__tree-el a{
     display: block;
+    height: fit-content;
 }
 
 .section__more-blog{
@@ -3584,21 +3611,3 @@ table tr th {
     color: var(--accent);
 }
 /* ================================================================= */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
