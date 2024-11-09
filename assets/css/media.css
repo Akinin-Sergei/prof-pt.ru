@@ -921,7 +921,7 @@
     }
 
     .contact__map {
-        left: -10px;
+        left: 0px;
         top: 0;
         right: 0;
         bottom: 0;
@@ -930,6 +930,7 @@
     }
 
     .contact__map-inner {
+        max-width: 100%;
         width: 780px;
         flex-basis: 594px;
     }
